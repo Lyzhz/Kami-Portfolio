@@ -11,14 +11,14 @@
     scroll-behavior: smooth;
   }
   body {
-    background: #f5f2ec;
-    color: #2b2825;
+    background: #fbf1ef;
+    color: #2a2320;
     font-family: var(--font-jost), sans-serif;
     -webkit-font-smoothing: antialiased;
   }
   ::selection {
-    background: #9a7b5f;
-    color: #f5f2ec;
+    background: #ea5554;
+    color: #fbf1ef;
   }
   a {
     color: inherit;
@@ -28,7 +28,7 @@
     scroll-margin-top: 76px;
   }
   :focus-visible {
-    outline: 2px solid #9a7b5f;
+    outline: 2px solid #ea5554;
     outline-offset: 3px;
     border-radius: 4px;
   }

@@ -28,7 +28,7 @@ export default function BackToTop({ label }: { label: string }) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 12 }}
           transition={{ duration: 0.25 }}
-          className="fixed bottom-[24px] right-[24px] z-[70] flex items-center justify-center w-[46px] h-[46px] rounded-full bg-[#2b2825] text-[#f5f2ec] shadow-[0_6px_20px_rgba(43,40,37,0.25)] cursor-pointer transition-colors hover:bg-[#9a7b5f]"
+          className="fixed bottom-[24px] right-[24px] z-[70] flex items-center justify-center w-[46px] h-[46px] rounded-full bg-[#2a2320] text-[#fbf1ef] shadow-[0_6px_20px_rgba(43,40,37,0.25)] cursor-pointer transition-colors hover:bg-[#ea5554]"
         >
           <ArrowUp size={18} strokeWidth={1.75} />
         </motion.button>

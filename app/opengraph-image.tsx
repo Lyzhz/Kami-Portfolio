@@ -15,14 +15,14 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "center",
           gap: 28,
-          background: "#f5f2ec",
+          background: "#fbf1ef",
           padding: "80px 88px",
         }}
       >
-        <div style={{ display: "flex", fontSize: 26, letterSpacing: 6, color: "#9a7b5f" }}>
+        <div style={{ display: "flex", fontSize: 26, letterSpacing: 6, color: "#ea5554" }}>
           DESIGNER GRÁFICA · SÃO PAULO, BRASIL
         </div>
-        <div style={{ display: "flex", fontSize: 150, lineHeight: 1, color: "#2b2825" }}>
+        <div style={{ display: "flex", fontSize: 150, lineHeight: 1, color: "#2a2320" }}>
           Camila Brito
         </div>
         <div style={{ display: "flex", fontSize: 32, color: "#4a453d" }}>

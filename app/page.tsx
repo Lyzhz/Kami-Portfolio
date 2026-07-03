@@ -42,7 +42,7 @@ export default function Home() {
     <div className="min-h-screen overflow-x-clip">
       <a
         href="#main"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-[12px] focus:left-[12px] focus:z-[80] focus:bg-[#2b2825] focus:text-[#f5f2ec] focus:px-[16px] focus:py-[8px] focus:rounded-full focus:text-[13px]"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-[12px] focus:left-[12px] focus:z-[80] focus:bg-[#2a2320] focus:text-[#fbf1ef] focus:px-[16px] focus:py-[8px] focus:rounded-full focus:text-[13px]"
       >
         {isPT ? "Pular para o conteúdo" : "Skip to content"}
       </a>

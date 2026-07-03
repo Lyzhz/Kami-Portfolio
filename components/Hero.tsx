@@ -36,7 +36,7 @@ export default function Hero({ t }: { t: Translations }) {
   return (
     <section className="py-[clamp(56px,12vh,140px)] px-[clamp(24px,6vw,88px)] pb-[clamp(48px,9vh,110px)] max-w-[1320px] mx-auto">
       <motion.p
-        className="text-[12px] tracking-[0.28em] uppercase text-[#9a7b5f] mb-[clamp(24px,5vh,52px)]"
+        className="text-[12px] tracking-[0.28em] uppercase text-[#ea5554] mb-[clamp(24px,5vh,52px)]"
         initial={reduce ? false : { opacity: 0, y: 14 }}
         animate={{ opacity: 1, y: 0 }}
         transition={reduce ? undefined : { duration: 0.6 }}
@@ -52,7 +52,7 @@ export default function Hero({ t }: { t: Translations }) {
       >
         <AnimatedWord text="Camila" />
         <br />
-        <AnimatedWord text="Brito" className="italic text-[#9a7b5f]" />
+        <AnimatedWord text="Brito" className="italic text-[#ea5554]" />
       </motion.h1>
 
       <motion.div
@@ -71,7 +71,7 @@ export default function Hero({ t }: { t: Translations }) {
           </span>
           <a
             href="#contact"
-            className="group inline-flex items-center gap-[10px] self-start bg-[#2b2825] text-[#f5f2ec] px-[26px] py-[14px] rounded-full text-[13px] tracking-[0.1em] uppercase transition-all duration-300 hover:bg-[#9a7b5f] hover:-translate-y-[2px]"
+            className="group inline-flex items-center gap-[10px] self-start bg-[#2a2320] text-[#fbf1ef] px-[26px] py-[14px] rounded-full text-[13px] tracking-[0.1em] uppercase transition-all duration-300 hover:bg-[#ea5554] hover:-translate-y-[2px]"
           >
             {t.heroCta}
             <ArrowRight
